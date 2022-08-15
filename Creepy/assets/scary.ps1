@@ -22,7 +22,7 @@ iwr $i -O $env:TMP\i.png
 
 # Download WAV file; replace link to $wav to add your own sound
 
-$wav = "https://github.com/Heffrey13/Ducky-Pranks/blob/main/Creepy/assets/Song/Every%20Breath%20You%20Take.wav?raw=true"
+$wav = "https://github.com/Heffrey13/Ducky-Pranks/blob/main/Creepy/assets/Song/Every%20Breath%20You%20Take.wav"
 
 $w = -join($wav,"?dl=1")
 iwr $w -O $env:TMP\s.wav
