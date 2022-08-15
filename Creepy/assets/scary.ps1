@@ -14,7 +14,7 @@
 
 $RI = Get-Random @(1..3)
 
-$image =  "https://github.com/Heffrey13/Ducky-Pranks/blob/main/Creepy/assets/Wallpaper/eye.png"
+$image =  "https://raw.githubusercontent.com/Heffrey13/Ducky-Pranks/main/Creepy/assets/Wallpaper/eye.png"
 
 $i = -join($image,"?dl=1")
 
