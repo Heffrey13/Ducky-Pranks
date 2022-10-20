@@ -25,6 +25,25 @@
 	for each one of them. 
 #>
 
+# ------------------------------------------------------------------------------------------------
+
+
+Add-Type -AssemblyName System.Windows.Forms
+
+# The number of times you want it to cycle through your list of questions
+
+$cycles = 3
+
+# List as many questions here as you like, it will cycle through all of them
+
+$msgs = @(
+"Why are you so bad at this?"
+"Is the pay worth being this big of a loser?"
+"Do your parents know what you do for a living?"
+"Are you getting mad bro?"
+"You wont like me when im mad, lol"
+"Figure this out yet?"
+)
 
 #----------------------------------------------------------------------------------------------------
 
@@ -50,23 +69,6 @@ $o=New-Object -ComObject WScript.Shell
 }
 
 #------------------------------------------------------------------------------------------------------------------------------------
-
-Add-Type -AssemblyName System.Windows.Forms
-
-# The number of times you want it to cycle through your list of questions
-
-$cycles = 3
-
-# List as many questions here as you like, it will cycke through all of them
-
-$msgs = @(
-"Why are you so bad at this?"
-"Is the pay worth being this big of a loser?"
-"Do your parents know what you do for a living?"
-"Are you getting mad bro?"
-"You wont like me when im mad, lol"
-"Figure this out yet?"
-)
 
 for ($i=1; $i -le $cycles; $i++) {
 
